@@ -1,0 +1,129 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url('pic1.jpg');
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	font-family: century gothic;
+	/*font-family: sans-serif;*/
+	/*background-position: center;*/
+}
+
+.signin
+{
+	width: 400px;
+	height: 430px;
+	background:  rgba(72, 72, 82, 0.6);
+	color: #;
+	top: 50%;
+	left: 75%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 69px;
+	padding-left: 20px;
+}
+
+h1
+{
+	margin: 0;
+	padding-top: 50px;
+	padding-right: 20px;
+	text-align: center;
+	font-size: 52px;
+	font-family: century gothic;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.signin p
+{
+
+	background: #000000;
+	width: 20%;
+	margin-top: 20px;
+	color: white;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.signin input
+{
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+.signin input[type="text"], input[type="password"]
+{
+	border: 0;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	font-style: initial;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+}
+
+::placeholder
+{
+  color: black;
+}
+
+.signin input[type="checkbox"] 
+{
+  display: inline-block;
+  width: auto;
+}
+
+.signin label
+{
+	font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.signin input[type="submit"]
+{
+	border: none;
+	outline: none;
+	background: #0000ff;
+	height: 40px;
+	color: #000000;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+.signin input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #000080;
+	color: ;
+}
+
+.signin a
+{
+	text-decoration: none;
+	padding-left: 30px;
+	font-weight: bolder;
+	color: blue;
+}
+error{
+	background: #F2DEDE;
+	color: #A94442;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+success{
+	background: #F2DEDE;
+	color: greenyellow;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+
